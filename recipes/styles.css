@@ -1,6 +1,8 @@
 * {
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 16px;
+  color: #2e2e2e;
+  line-height: 2;
 }
 
 .body {
@@ -9,10 +11,8 @@
   display: block;
   padding: 0 16px;
   max-width: 800;
-
-
-
 }
+
 .header {
   justify-content: center;
   text-align: center;
@@ -20,16 +20,34 @@
 
 .story p {
   font-family: monospace;
-  font-size: 20px;
+  /*font-size: 20px;*/
   padding: 20px;
 
 }
 
 .picture {
   padding: 0 16px;
+  justify-content: center;
+  padding-bottom: 2%;
 }
 
 .picture img {
-  max-width: 80%;
+  display: block;
+  max-width: 70%;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #2e2e2e;
+  border-radius: 5px;
+}
+
+.subheading {
+  padding: 1%;
+}
+
+/* for desktops and tablets */
+@media only screen and (min-width: 1081px) {
+  .body {
+    max-width: 1000;
+  }
 }
