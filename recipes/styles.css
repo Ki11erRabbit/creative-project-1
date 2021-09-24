@@ -24,3 +24,12 @@
   padding: 20px;
 
 }
+
+.picture {
+  padding: 0 16px;
+}
+
+.picture img {
+  max-width: 80%;
+  height: auto;
+}
