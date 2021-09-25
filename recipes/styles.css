@@ -51,6 +51,15 @@
   font-weight: bold;
 }
 
+.footer {
+  align-content: center;
+  text-align: center;
+
+}
+.footer img {
+  max-width: 2em;
+}
+
 /* for desktops and tablets */
 @media only screen and (min-width: 1081px) {
   .body {

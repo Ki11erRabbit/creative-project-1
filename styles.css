@@ -70,3 +70,12 @@
 	order: -1;
   justify-content: start;
 }
+
+.footer {
+  align-content: center;
+  text-align: center;
+
+}
+.footer img {
+  max-width: 2em;
+}
